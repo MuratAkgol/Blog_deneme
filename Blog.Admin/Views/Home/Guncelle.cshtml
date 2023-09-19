@@ -1,0 +1,63 @@
+﻿@using EntityLayer
+@model BlogYazilari
+
+<style>
+    #ust {
+        margin-top: 10%;
+    }
+</style>
+
+<div class="container" id="ust">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col">
+            <h2 class="h2">Görevi Güncelle</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col">
+            @using (Html.BeginForm("Guncelle", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <div class="form-group">
+                    @Html.Label("Yazının Başlığı")<br>
+                    @Html.TextBoxFor(x=>x.Baslik)
+                    @Html.ValidationMessageFor(x=>x.Baslik)
+                    <br>
+                    @Html.Label("Yazının İçeriği")<br>
+                    @Html.TextAreaFor(x=>x.Icerik)
+                    @Html.ValidationMessageFor(x=>x.Icerik)
+                    <br>
+                    @Html.Label("Yazının Türü")<br>
+                    @Html.TextBoxFor(x=>x.Tur)
+                    <br>
+                    @if (Model.Resim != null)
+                    {
+                        @Html.LabelFor(x=>x.Resim)
+
+                        <br>
+                        <img class="card-item-top" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Resim)" alt="Resim Açıklaması" width="50%" height="10%" name="resim">
+                        <a href="/Home/ResimSil/@Model.Id" class="btn btn-danger mt-2">Resmi sil</a>
+                        <br>
+                    }
+                    else
+                    {
+                        @Html.Label("Resim Seç")
+
+                        <br>
+                        <input type="file" name="resim" />
+                        <br>
+
+                        <br />
+
+                    }
+
+                    <br><br />
+                    <button class="btn btn-outline-success">Güncelle</button>
+                </div>
+            }
+        </div>
+    </div>
+
+</div>

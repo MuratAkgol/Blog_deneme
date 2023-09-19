@@ -1,0 +1,56 @@
+﻿@using EntityLayer
+@model BlogYazilari
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    #ust {
+        margin-top: 10%;
+    }
+</style>
+
+<script>
+    var hatami = @ViewBag.hata;
+    if(hatami == 1){
+        alert("Yazı kaydedilirken bir hata oluştu. Lütfen tekrar deneyin.")
+    }
+</script>
+
+<div class="container" id=ust>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col">
+            <h2 class="h2">Yeni Görev Ekle</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col">
+            @using (Html.BeginForm("YeniYazi", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <div class="form-group">
+                    @Html.Label("Yazının Başlığı")<br>
+                    @Html.TextBoxFor(x=>x.Baslik)
+                    @Html.ValidationMessageFor(x=>x.Baslik)
+                    <br>
+                    @Html.Label("Yazının İçeriği")<br>
+                    @Html.TextAreaFor(x=>x.Icerik)
+                    @Html.ValidationMessageFor(x=>x.Icerik)
+                    <br>
+                    @Html.Label("Yazının Türü")<br>
+                    @Html.TextBoxFor(x=>x.Tur)
+                    <br>
+                    @Html.Label("Resim Seç")<br>
+                    <input type="file" name="resim" />
+                    <br><br />
+                    <button class="btn btn-outline-success">Ekle</button>
+                </div>
+            }
+        </div>
+    </div>
+
+</div>

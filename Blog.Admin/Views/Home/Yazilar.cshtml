@@ -1,0 +1,73 @@
+﻿@model IEnumerable<EntityLayer.BlogYazilari>
+
+@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+<style>
+    #ust {
+        margin-top: 10%;
+    }
+</style>
+
+<div class="container mt-4" id="ust">
+    <div class="row text-center">
+        <div class="col" id="ust">
+            <h2>Görevler Listesi</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col">
+            <a href="/Home/YeniYazi" class="btn btn-outline-warning mb-2">Yeni Görev Ekle</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-md-9 col-sm-9">
+            <table class=" table table-hover">
+                <tr>
+                    <th>Yazı No</th>
+                    <th>Yazı Başlığı</th>
+                    <th>Yazı İçeriği</th>
+                    <th>Kategori</th>
+                    
+                    <th>Düzenle</th>
+                </tr>
+                <tbody class="table-group-divider">
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td><p>@item.Id</p></td>
+                            <td><p>@item.Baslik</p></td>
+                            <td><p class="card-text" style="overflow: auto;max-height:100px">@item.Icerik</p></td>
+
+                            @switch ((item.Tur).ToString())
+                            {
+                                case "1":
+                                    <td>Yeni Yazı</td>
+                                    break;
+                                case "2":
+                                    <td>Popiler Yazı</td>
+                                    break;
+                                case "3":
+                                    <td>En çok tıklanan</td>
+                                    break;
+                            }
+                            <td>
+                                <a class="btn btn-success" href="/Home/Guncelle/@item.Id">Güncelle</a>
+                                <a class="btn btn-danger" href="/Home/BlogYaziSil/@item.Id">Sil</a>
+                            </td>
+
+                        </tr>
+
+
+                    }
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+</div>

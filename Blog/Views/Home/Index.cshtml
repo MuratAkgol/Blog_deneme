@@ -1,0 +1,93 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model IEnumerable<EntityLayer.BlogYazilari>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm text-center">
+            <h2>Popüler Yazılar</h2>
+            <hr />
+            
+            @foreach (var item in Model)
+            {
+                if (item.Tur == 2)
+                {
+                    <div class="card mb-2">
+
+                        @if (item.Resim != null)
+                        {
+                            <div class="col text-center"><img class="card-item-top" src="data:image/jpeg;base64,@Convert.ToBase64String(item.Resim)" alt="Resim Açıklaması" width="70%" height="10%">  </div>
+                            
+                        }
+
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Baslik</h5>
+                            <p class="card-text" style="overflow: hidden;max-height:100px">@item.Icerik</p>
+                            <a href="#" class="btn btn-primary">Devamını oku</a>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+        <div class="col-md col-sm text-center">
+            <h2>Yeni Yazılar</h2>
+            <hr />
+            @foreach (var item in Model)
+            {
+                <div class="card mb-2">
+                    @if (item.Resim != null)
+                    {
+                        <div class="col text-center">
+                        <img class="card-item-top" src="data:image/jpeg;base64,@Convert.ToBase64String(item.Resim)" alt="Resim Açıklaması" width="80%" height="10%">
+                        </div>
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Baslik</h5>
+                        <p class="card-text" style="overflow: hidden;max-height:100px">@item.Icerik</p>
+                        <a href="#" class="btn btn-primary">Devamını oku</a>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="col-md-3 col-sm">
+            <h2>Kategoriler</h2>
+            <hr />
+            @foreach (var item in Model)
+            {
+
+                switch ((item.Tur).ToString())
+                {
+                    case "1":
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Yeni Yazı
+                            </label>
+                        </div>
+                        break;
+                    case "2":
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Popiler Yazı
+                            </label>
+                        </div>
+                        
+                        break;
+                    case "3":
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                En çok tıklanan
+                            </label>
+                        </div>
+                        
+                        break;
+                }
+            }
+        </div>
+    </div>
+</div>

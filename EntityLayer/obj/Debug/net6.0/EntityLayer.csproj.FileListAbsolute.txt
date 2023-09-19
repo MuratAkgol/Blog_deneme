@@ -1,0 +1,12 @@
+D:\Her şey\Kod\Blog\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+D:\Her şey\Kod\Blog\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+D:\Her şey\Kod\Blog\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+D:\Her şey\Kod\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
+D:\Her şey\Kod\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Her şey\Kod\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+D:\Her şey\Kod\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+D:\Her şey\Kod\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+D:\Her şey\Kod\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+D:\Her şey\Kod\Blog\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
+D:\Her şey\Kod\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+D:\Her şey\Kod\Blog\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll
