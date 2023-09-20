@@ -3,6 +3,7 @@ using BussinessLayer.Concrate;
 using DataLayer;
 using EntityLayer;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
@@ -27,18 +28,31 @@ namespace Blog.Admin.Controllers
         }
         public IActionResult Yazilar()
         {
-            return View(db.tbl_BlogYazilari);
+            return View(db.tbl_BlogYazilari.OrderByDescending(x=>x.Id));
         }
         public IActionResult YeniYazi()
         {
+            ViewBag.TurList = new SelectList(new List<string>
+            {
+                "Popüler",
+                "Yeni",
+                "Editörün Seçtiği"
+            });
+
             return View();
         }
+
+       
+
+
         [HttpPost]
         public IActionResult YeniYazi(BlogYazilari yazilar, IFormFile resim)
         {
-
-            if (ModelState.IsValid)
+            if (yazilar.TurId == null)
             {
+                yazilar.TurId = "Yeni yazı";
+            }
+           
                 if (resim != null && resim.Length > 0)
                 {
                     using (var memoryStream = new MemoryStream())
@@ -47,25 +61,29 @@ namespace Blog.Admin.Controllers
                         yazilar.Resim = memoryStream.ToArray();
                     }
                 }
+                
+
 
                 db.tbl_BlogYazilari.Add(yazilar);
                 db.SaveChanges();
 
                 return RedirectToAction("Yazilar");
-            }
-            else
-            {
-                int hata = 1;
-                ViewBag.hata = hata;
-                // Model doğrulama hatası varsa, hata mesajlarını işleyin
-                return RedirectToAction("Yazilar");
-            }
+            
         }
+
+        
+
         int global = 0;
 
         public IActionResult Guncelle(int id)
         {
-            
+            ViewBag.TurList = new SelectList(new List<string>
+            {
+                "Popüler",
+                "Yeni",
+                "Editörün Seçtiği"
+            });
+
             _yazi = _yazilar.GetById(id);
             id = global;
             return View(_yazi);
@@ -74,6 +92,10 @@ namespace Blog.Admin.Controllers
         [HttpPost]
         public IActionResult Guncelle(BlogYazilari yazilar, IFormFile resim)
         {
+            if (yazilar.TurId == null)
+            {
+                yazilar.TurId = "Popüler";
+            }
             int id = yazilar.Id;
 
             byte[] eskiResim = db.tbl_BlogYazilari.FirstOrDefault(x => x.Id == id).Resim;

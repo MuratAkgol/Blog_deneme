@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Ana Sayfa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <style>
     #ust {
@@ -12,14 +13,14 @@
 <div class="container mt-4" id="ust">
     <div class="row text-center">
         <div class="col" id="ust">
-            <h2>Görevler Listesi</h2>
+            <h2>Yazılar</h2>
         </div>
     </div>
 
     <div class="row">
         <div class="col-3"></div>
         <div class="col">
-            <a href="/Home/YeniYazi" class="btn btn-outline-warning mb-2">Yeni Görev Ekle</a>
+            <a href="/Home/YeniYazi" class="btn btn-outline-warning mb-2">Yeni Yazı Yaz</a>
         </div>
     </div>
 
@@ -43,8 +44,9 @@
                             <td><p>@item.Id</p></td>
                             <td><p>@item.Baslik</p></td>
                             <td><p class="card-text" style="overflow: auto;max-height:100px">@item.Icerik</p></td>
-
-                            @switch ((item.Tur).ToString())
+                            <td><p>@item.TurId</p></td>
+                            
+                            @*@switch ((item.TurId).ToString())
                             {
                                 case "1":
                                     <td>Yeni Yazı</td>
@@ -55,7 +57,8 @@
                                 case "3":
                                     <td>En çok tıklanan</td>
                                     break;
-                            }
+                            }*@
+
                             <td>
                                 <a class="btn btn-success" href="/Home/Guncelle/@item.Id">Güncelle</a>
                                 <a class="btn btn-danger" href="/Home/BlogYaziSil/@item.Id">Sil</a>

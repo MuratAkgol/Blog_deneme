@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CzhuF3L/aOWzxheTrH6gdoCw0ov/lx4R4CiM9RdQr+7qlAUtkmdlbEJqD5HifcHTw31cmCvO84mjvYNcNXU02Q==",
+  "dgSpecHash": "oY8zbyT/mLgozBaLYIzJCt3K8CrUi7qqXZJIOcsmaFOlUsKFQ2PvIUbRHJzV7EjPkxzyc/7hgzrRbIKgXQFnuQ==",
   "success": true,
-  "projectFilePath": "D:\\Her şey\\Kod\\Blog\\BussinessLayer\\BussinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\BussinessLayer\\BussinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huawei\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\huawei\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",

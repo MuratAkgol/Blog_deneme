@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Her şey\\Kod\\Blog\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "D:\\Her şey\\Kod\\Blog\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Her şey\\Kod\\Blog\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "D:\\Her şey\\Kod\\Blog\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\huawei\\.nuget\\packages\\",
-        "outputPath": "D:\\Her şey\\Kod\\Blog\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

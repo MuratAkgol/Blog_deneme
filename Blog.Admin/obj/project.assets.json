@@ -2047,11 +2047,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Her şey\\Kod\\Blog\\Blog.Admin\\Blog.Admin.csproj",
+      "projectUniqueName": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\Blog.Admin\\Blog.Admin.csproj",
       "projectName": "Blog.Admin",
-      "projectPath": "D:\\Her şey\\Kod\\Blog\\Blog.Admin\\Blog.Admin.csproj",
+      "projectPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\Blog.Admin\\Blog.Admin.csproj",
       "packagesPath": "C:\\Users\\huawei\\.nuget\\packages\\",
-      "outputPath": "D:\\Her şey\\Kod\\Blog\\Blog.Admin\\obj\\",
+      "outputPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\Blog.Admin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2074,11 +2074,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Her şey\\Kod\\Blog\\BussinessLayer\\BussinessLayer.csproj": {
-              "projectPath": "D:\\Her şey\\Kod\\Blog\\BussinessLayer\\BussinessLayer.csproj"
+            "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\BussinessLayer\\BussinessLayer.csproj": {
+              "projectPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\BussinessLayer\\BussinessLayer.csproj"
             },
-            "D:\\Her şey\\Kod\\Blog\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "D:\\Her şey\\Kod\\Blog\\DataLayer\\DataLayer.csproj"
+            "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\DataLayer\\DataLayer.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dSNOQuX/aPereLBpTZRV77CBCyrpnD/gmGRp1xr8+3ntLL5jzpisz2XtHXpzqYj+SlFNChfJUPa1iBZQ7vXxxQ==",
+  "dgSpecHash": "Ny51MTKFJSeSDVtRJHDSDHq60xiB2kP0L7VfksMjO8limbsSXpAz89NneesvWRfAg63+DjgnQDwOh3EdB16bqA==",
   "success": true,
-  "projectFilePath": "D:\\Her şey\\Kod\\Blog\\Blog\\Blog.UI.csproj",
+  "projectFilePath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\Blog\\Blog.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huawei\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\huawei\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

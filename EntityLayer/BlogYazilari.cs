@@ -18,7 +18,7 @@ namespace EntityLayer
         [DisplayName("İçerik")]
         public string Icerik { get; set; }
         [DisplayName("Tür")]
-        public int Tur { get; set; }
+        public string TurId { get; set; }
         public byte[]? Resim { get; set; }
     }
 }

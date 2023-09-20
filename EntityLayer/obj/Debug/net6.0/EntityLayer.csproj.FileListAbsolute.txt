@@ -10,3 +10,27 @@ D:\Her şey\Kod\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
 D:\Her şey\Kod\Blog\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
 D:\Her şey\Kod\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
 D:\Her şey\Kod\Blog\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll
+C:\Users\huawei\Desktop\Blog\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+C:\Users\huawei\Desktop\Blog\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\huawei\Desktop\Blog\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\huawei\Desktop\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\huawei\Desktop\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huawei\Desktop\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\huawei\Desktop\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+C:\Users\huawei\Desktop\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\huawei\Desktop\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+C:\Users\huawei\Desktop\Blog\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
+C:\Users\huawei\Desktop\Blog\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+C:\Users\huawei\Desktop\Blog\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll
+C:\Users\huawei\Github-Proje2\Blog_deneme\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+C:\Users\huawei\Github-Proje2\Blog_deneme\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\huawei\Github-Proje2\Blog_deneme\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\huawei\Github-Proje2\Blog_deneme\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\huawei\Github-Proje2\Blog_deneme\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huawei\Github-Proje2\Blog_deneme\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\huawei\Github-Proje2\Blog_deneme\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+C:\Users\huawei\Github-Proje2\Blog_deneme\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\huawei\Github-Proje2\Blog_deneme\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+C:\Users\huawei\Github-Proje2\Blog_deneme\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
+C:\Users\huawei\Github-Proje2\Blog_deneme\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+C:\Users\huawei\Github-Proje2\Blog_deneme\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll

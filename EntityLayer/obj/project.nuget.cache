@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cTWWHesmdKM9X3V9w5OKe55heiEJu6hH9DvAAyr3PDdZNIxbAWjeXdXD+qT17huaWiR6cAuJPviNfaK7rap54A==",
+  "dgSpecHash": "P164QHGuMIoD+F81r5UJeJla+dQ9zcaSVf4C3iiOZFa35/fyFKLD2hYfFuiLNp99WVwx28p2bLDqzA20BSQ2Cg==",
   "success": true,
-  "projectFilePath": "D:\\Her şey\\Kod\\Blog\\EntityLayer\\EntityLayer.csproj",
+  "projectFilePath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\EntityLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huawei\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\huawei\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",

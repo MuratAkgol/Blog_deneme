@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Blog.Admin
 build_property.RootNamespace = Blog.Admin
-build_property.ProjectDir = D:\Her şey\Kod\Blog\Blog.Admin\
+build_property.ProjectDir = C:\Users\huawei\Github-Proje2\Blog_deneme\Blog.Admin\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Her şey\Kod\Blog\Blog.Admin
+build_property.MSBuildProjectDirectory = C:\Users\huawei\Github-Proje2\Blog_deneme\Blog.Admin
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Her şey/Kod/Blog/Blog.Admin/Views/Home/Guncelle.cshtml]
+[C:/Users/huawei/Github-Proje2/Blog_deneme/Blog.Admin/Views/Home/Guncelle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHdW5jZWxsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Her şey/Kod/Blog/Blog.Admin/Views/Home/Index.cshtml]
+[C:/Users/huawei/Github-Proje2/Blog_deneme/Blog.Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Her şey/Kod/Blog/Blog.Admin/Views/Home/Privacy.cshtml]
+[C:/Users/huawei/Github-Proje2/Blog_deneme/Blog.Admin/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Her şey/Kod/Blog/Blog.Admin/Views/Home/Yazilar.cshtml]
+[C:/Users/huawei/Github-Proje2/Blog_deneme/Blog.Admin/Views/Home/Yazilar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxZYXppbGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Her şey/Kod/Blog/Blog.Admin/Views/Home/YeniYazi.cshtml]
+[C:/Users/huawei/Github-Proje2/Blog_deneme/Blog.Admin/Views/Home/YeniYazi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxZZW5pWWF6aS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Her şey/Kod/Blog/Blog.Admin/Views/Shared/Error.cshtml]
+[C:/Users/huawei/Github-Proje2/Blog_deneme/Blog.Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Her şey/Kod/Blog/Blog.Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/huawei/Github-Proje2/Blog_deneme/Blog.Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Her şey/Kod/Blog/Blog.Admin/Views/_ViewImports.cshtml]
+[C:/Users/huawei/Github-Proje2/Blog_deneme/Blog.Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Her şey/Kod/Blog/Blog.Admin/Views/_ViewStart.cshtml]
+[C:/Users/huawei/Github-Proje2/Blog_deneme/Blog.Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Her şey/Kod/Blog/Blog.Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/huawei/Github-Proje2/Blog_deneme/Blog.Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-e1v5pymiz3

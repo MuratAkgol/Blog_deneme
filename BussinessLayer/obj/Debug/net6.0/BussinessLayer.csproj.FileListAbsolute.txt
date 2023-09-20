@@ -17,3 +17,41 @@ D:\Her şey\Kod\Blog\BussinessLayer\obj\Debug\net6.0\refint\BussinessLayer.dll
 D:\Her şey\Kod\Blog\BussinessLayer\obj\Debug\net6.0\BussinessLayer.pdb
 D:\Her şey\Kod\Blog\BussinessLayer\obj\Debug\net6.0\BussinessLayer.genruntimeconfig.cache
 D:\Her şey\Kod\Blog\BussinessLayer\obj\Debug\net6.0\ref\BussinessLayer.dll
+C:\Users\huawei\Desktop\Blog\BussinessLayer\bin\Debug\net6.0\BussinessLayer.deps.json
+C:\Users\huawei\Desktop\Blog\BussinessLayer\bin\Debug\net6.0\BussinessLayer.runtimeconfig.json
+C:\Users\huawei\Desktop\Blog\BussinessLayer\bin\Debug\net6.0\BussinessLayer.dll
+C:\Users\huawei\Desktop\Blog\BussinessLayer\bin\Debug\net6.0\BussinessLayer.pdb
+C:\Users\huawei\Desktop\Blog\BussinessLayer\bin\Debug\net6.0\DataLayer.dll
+C:\Users\huawei\Desktop\Blog\BussinessLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\huawei\Desktop\Blog\BussinessLayer\bin\Debug\net6.0\DataLayer.pdb
+C:\Users\huawei\Desktop\Blog\BussinessLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\huawei\Desktop\Blog\BussinessLayer\obj\Debug\net6.0\BussinessLayer.csproj.AssemblyReference.cache
+C:\Users\huawei\Desktop\Blog\BussinessLayer\obj\Debug\net6.0\BussinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huawei\Desktop\Blog\BussinessLayer\obj\Debug\net6.0\BussinessLayer.AssemblyInfoInputs.cache
+C:\Users\huawei\Desktop\Blog\BussinessLayer\obj\Debug\net6.0\BussinessLayer.AssemblyInfo.cs
+C:\Users\huawei\Desktop\Blog\BussinessLayer\obj\Debug\net6.0\BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\huawei\Desktop\Blog\BussinessLayer\obj\Debug\net6.0\BussinessLayer.csproj.CopyComplete
+C:\Users\huawei\Desktop\Blog\BussinessLayer\obj\Debug\net6.0\BussinessLayer.dll
+C:\Users\huawei\Desktop\Blog\BussinessLayer\obj\Debug\net6.0\refint\BussinessLayer.dll
+C:\Users\huawei\Desktop\Blog\BussinessLayer\obj\Debug\net6.0\BussinessLayer.pdb
+C:\Users\huawei\Desktop\Blog\BussinessLayer\obj\Debug\net6.0\BussinessLayer.genruntimeconfig.cache
+C:\Users\huawei\Desktop\Blog\BussinessLayer\obj\Debug\net6.0\ref\BussinessLayer.dll
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\bin\Debug\net6.0\BussinessLayer.deps.json
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\bin\Debug\net6.0\BussinessLayer.runtimeconfig.json
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\bin\Debug\net6.0\BussinessLayer.dll
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\bin\Debug\net6.0\BussinessLayer.pdb
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\bin\Debug\net6.0\DataLayer.dll
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\bin\Debug\net6.0\DataLayer.pdb
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\obj\Debug\net6.0\BussinessLayer.csproj.AssemblyReference.cache
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\obj\Debug\net6.0\BussinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\obj\Debug\net6.0\BussinessLayer.AssemblyInfoInputs.cache
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\obj\Debug\net6.0\BussinessLayer.AssemblyInfo.cs
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\obj\Debug\net6.0\BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\obj\Debug\net6.0\BussinessLayer.csproj.CopyComplete
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\obj\Debug\net6.0\BussinessLayer.dll
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\obj\Debug\net6.0\refint\BussinessLayer.dll
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\obj\Debug\net6.0\BussinessLayer.pdb
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\obj\Debug\net6.0\BussinessLayer.genruntimeconfig.cache
+C:\Users\huawei\Github-Proje2\Blog_deneme\BussinessLayer\obj\Debug\net6.0\ref\BussinessLayer.dll

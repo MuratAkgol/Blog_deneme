@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-3"></div>
         <div class="col">
-            <h2 class="h2">Görevi Güncelle</h2>
+            <h2 class="h2">Yazıyı Güncelle</h2>
         </div>
     </div>
 
@@ -22,15 +22,15 @@
             {
                 <div class="form-group">
                     @Html.Label("Yazının Başlığı")<br>
-                    @Html.TextBoxFor(x=>x.Baslik)
+                    @Html.TextBoxFor(x=>x.Baslik, new { @class = "form-control" })
                     @Html.ValidationMessageFor(x=>x.Baslik)
                     <br>
                     @Html.Label("Yazının İçeriği")<br>
-                    @Html.TextAreaFor(x=>x.Icerik)
+                    @Html.TextAreaFor(x=>x.Icerik, new { @class = "form-control" })
                     @Html.ValidationMessageFor(x=>x.Icerik)
                     <br>
                     @Html.Label("Yazının Türü")<br>
-                    @Html.TextBoxFor(x=>x.Tur)
+                    @Html.DropDownListFor(x => x.TurId, (SelectList)ViewBag.TurList, "Seçiniz", new { @class = "form-control" })
                     <br>
                     @if (Model.Resim != null)
                     {

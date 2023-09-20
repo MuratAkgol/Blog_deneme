@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Her şey\\Kod\\Blog\\Blog\\Blog.UI.csproj": {}
+    "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\Blog\\Blog.UI.csproj": {}
   },
   "projects": {
-    "D:\\Her şey\\Kod\\Blog\\Blog\\Blog.UI.csproj": {
+    "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\Blog\\Blog.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Her şey\\Kod\\Blog\\Blog\\Blog.UI.csproj",
+        "projectUniqueName": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\Blog\\Blog.UI.csproj",
         "projectName": "Blog.UI",
-        "projectPath": "D:\\Her şey\\Kod\\Blog\\Blog\\Blog.UI.csproj",
+        "projectPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\Blog\\Blog.UI.csproj",
         "packagesPath": "C:\\Users\\huawei\\.nuget\\packages\\",
-        "outputPath": "D:\\Her şey\\Kod\\Blog\\Blog\\obj\\",
+        "outputPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\Blog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -34,11 +34,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Her şey\\Kod\\Blog\\BussinessLayer\\BussinessLayer.csproj": {
-                "projectPath": "D:\\Her şey\\Kod\\Blog\\BussinessLayer\\BussinessLayer.csproj"
+              "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\BussinessLayer\\BussinessLayer.csproj": {
+                "projectPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\BussinessLayer\\BussinessLayer.csproj"
               },
-              "D:\\Her şey\\Kod\\Blog\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "D:\\Her şey\\Kod\\Blog\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "D:\\Her şey\\Kod\\Blog\\BussinessLayer\\BussinessLayer.csproj": {
+    "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\BussinessLayer\\BussinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Her şey\\Kod\\Blog\\BussinessLayer\\BussinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\BussinessLayer\\BussinessLayer.csproj",
         "projectName": "BussinessLayer",
-        "projectPath": "D:\\Her şey\\Kod\\Blog\\BussinessLayer\\BussinessLayer.csproj",
+        "projectPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\BussinessLayer\\BussinessLayer.csproj",
         "packagesPath": "C:\\Users\\huawei\\.nuget\\packages\\",
-        "outputPath": "D:\\Her şey\\Kod\\Blog\\BussinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\BussinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -104,11 +104,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Her şey\\Kod\\Blog\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "D:\\Her şey\\Kod\\Blog\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\DataLayer\\DataLayer.csproj"
               },
-              "D:\\Her şey\\Kod\\Blog\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "D:\\Her şey\\Kod\\Blog\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -158,14 +158,14 @@
         }
       }
     },
-    "D:\\Her şey\\Kod\\Blog\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Her şey\\Kod\\Blog\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "D:\\Her şey\\Kod\\Blog\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\huawei\\.nuget\\packages\\",
-        "outputPath": "D:\\Her şey\\Kod\\Blog\\DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -187,8 +187,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Her şey\\Kod\\Blog\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "D:\\Her şey\\Kod\\Blog\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -238,14 +238,14 @@
         }
       }
     },
-    "D:\\Her şey\\Kod\\Blog\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Her şey\\Kod\\Blog\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "D:\\Her şey\\Kod\\Blog\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\huawei\\.nuget\\packages\\",
-        "outputPath": "D:\\Her şey\\Kod\\Blog\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\huawei\\Github-Proje2\\Blog_deneme\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
