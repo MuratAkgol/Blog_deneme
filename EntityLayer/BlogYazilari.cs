@@ -20,5 +20,6 @@ namespace EntityLayer
         [DisplayName("Tür")]
         public string TurId { get; set; }
         public byte[]? Resim { get; set; }
+        public int TikSayisi { get; set; }
     }
 }

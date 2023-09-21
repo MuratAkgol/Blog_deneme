@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\huawei\Github-Proje2\Blog_deneme\Blog
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/huawei/Github-Proje2/Blog_deneme/Blog/Views/Home/DevaminiOku.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXZhbWluaU9rdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/huawei/Github-Proje2/Blog_deneme/Blog/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

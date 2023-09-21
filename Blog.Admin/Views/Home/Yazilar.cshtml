@@ -45,20 +45,6 @@
                             <td><p>@item.Baslik</p></td>
                             <td><p class="card-text" style="overflow: auto;max-height:100px">@item.Icerik</p></td>
                             <td><p>@item.TurId</p></td>
-                            
-                            @*@switch ((item.TurId).ToString())
-                            {
-                                case "1":
-                                    <td>Yeni Yazı</td>
-                                    break;
-                                case "2":
-                                    <td>Popiler Yazı</td>
-                                    break;
-                                case "3":
-                                    <td>En çok tıklanan</td>
-                                    break;
-                            }*@
-
                             <td>
                                 <a class="btn btn-success" href="/Home/Guncelle/@item.Id">Güncelle</a>
                                 <a class="btn btn-danger" href="/Home/BlogYaziSil/@item.Id">Sil</a>

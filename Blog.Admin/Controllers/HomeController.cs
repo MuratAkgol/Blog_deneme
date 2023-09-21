@@ -61,9 +61,9 @@ namespace Blog.Admin.Controllers
                         yazilar.Resim = memoryStream.ToArray();
                     }
                 }
-                
 
 
+            yazilar.TikSayisi = 0;
                 db.tbl_BlogYazilari.Add(yazilar);
                 db.SaveChanges();
 

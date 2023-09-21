@@ -3,30 +3,51 @@
 }
 @model IEnumerable<EntityLayer.BlogYazilari>
 
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#myinput").on("keyup", function () {
+            var value = $(this).val().toLowerCase();
+            $("#item div").filter(function () {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            })
+        })
+    })
+</script>
 
+
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-2">
+            <b>Arama Kutucuğu:&nbsp;<input class="form-control" type="text" id="myinput" /></b>
+        </div>
+    </div>
+</div>
 <div class="container">
     <div class="row">
         <div class="col-md-3 col-sm text-center">
             <h2>Popüler Yazılar</h2>
             <hr />
-            
+
             @foreach (var item in Model)
             {
                 if (item.TurId == "Popüler")
                 {
+
                     <div class="card mb-2">
 
                         @if (item.Resim != null)
                         {
                             <div class="col text-center"><img class="card-item-top" src="data:image/jpeg;base64,@Convert.ToBase64String(item.Resim)" alt="Resim Açıklaması" width="70%" height="10%">  </div>
-                            
-                        }
 
-                        
+                        }
                         <div class="card-body">
                             <h5 class="card-title">@item.Baslik</h5>
                             <p class="card-text" style="overflow: hidden;max-height:100px">@item.Icerik</p>
-                            <a href="#" class="btn btn-primary">Devamını oku</a>
+                            <a href="/Home/DevaminiOku/@item.Id" class="btn btn-primary">Devamını oku</a>
+                            <div class="mt-2 d-flex float-right">
+                                <p class="float-right text-muted"> <i class="fa-sharp fa-regular fa-hand-pointer">&nbsp;</i>@item.TikSayisi</p>
+                            </div>
                         </div>
                     </div>
                 }
@@ -37,22 +58,29 @@
             <hr />
             @foreach (var item in Model)
             {
-                <div class="card mb-2">
-                    @if (item.Resim != null)
-                    {
-                        <div class="col text-center">
-                        <img class="card-item-top" src="data:image/jpeg;base64,@Convert.ToBase64String(item.Resim)" alt="Resim Açıklaması" width="50%" height="10%">
+                <div id="item">
+                    <div class="card text-center mb-2">
+                        @if (item.Resim != null)
+                        {
+                            <div class="col text-center">
+                                <img class="card-item-top" src="data:image/jpeg;base64,@Convert.ToBase64String(item.Resim)" alt="Resim Açıklaması" width="50%" height="10%">
+                            </div>
+                        }
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Baslik</h5>
+                            <p class="card-text" style="overflow: hidden;max-height:100px">@item.Icerik</p>
+                            <a href="/Home/DevaminiOku/@item.Id" class="btn btn-primary">Devamını oku</a>
+                            <div class="mt-2 d-flex float-right">
+                                <p class="float-right text-muted"> <i class="fa-sharp fa-regular fa-hand-pointer">&nbsp;</i>@item.TikSayisi</p>
+                            </div>
                         </div>
-                    }
-                    <div class="card-body">
-                        <h5 class="card-title">@item.Baslik</h5>
-                        <p class="card-text" style="overflow: hidden;max-height:100px">@item.Icerik</p>
-                        <a href="#" class="btn btn-primary">Devamını oku</a>
                     </div>
                 </div>
+                
+
             }
         </div>
-        <div class="col-md-3 col-sm">
+        <div class="col-md-3 col-sm text-center">
             <h2>Seçmeceler</h2>
             <hr />
 
@@ -73,7 +101,10 @@
                         <div class="card-body">
                             <h5 class="card-title">@item.Baslik</h5>
                             <p class="card-text" style="overflow: hidden;max-height:100px">@item.Icerik</p>
-                            <a href="#" class="btn btn-primary">Devamını oku</a>
+                            <a href="/Home/DevaminiOku/@item.Id" class="btn btn-primary">Devamını oku</a>
+                            <div class="mt-2 d-flex float-right">
+                                <p class="float-right text-muted"> <i class="fa-sharp fa-regular fa-hand-pointer">&nbsp;</i>@item.TikSayisi</p>
+                            </div>
                         </div>
                     </div>
                 }
