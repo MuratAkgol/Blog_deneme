@@ -4,6 +4,7 @@ using System.Diagnostics;
 using DataLayer;
 using EntityLayer;
 using BussinessLayer.Concrate;
+using Microsoft.EntityFrameworkCore;
 
 namespace Blog.Controllers
 {
@@ -20,6 +21,7 @@ namespace Blog.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.ortalama = db.tbl_BlogYazilari.Where(x => x.TikSayisi > 0).Average(x => x.TikSayisi);
             return View(db.tbl_BlogYazilari.OrderByDescending(x=>x.Id));
         }
 

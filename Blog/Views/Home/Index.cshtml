@@ -5,16 +5,46 @@
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script>
-    $(document).ready(function () {
-        $("#myinput").on("keyup", function () {
-            var value = $(this).val().toLowerCase();
-            $("#item div").filter(function () {
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-            })
-        })
-    })
+    function toggleDarkMode() {
+        var body = document.body;
+        body.classList.toggle("dark-mode");
+
+        // Diğer tüm HTML elemanlarına da dark-mode sınıfını ekleyin veya kaldırın
+        var elements = document.querySelectorAll("*");
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].classList.toggle("dark-mode");
+        }
+    }
+
 </script>
 
+<style>
+    /* Dark mode stilleri */
+    body.dark-mode {
+        background-color: #2c3e50;
+        color: #ffffff;
+    }
+
+    .dark-mode h1 {
+        color: #ff9900;
+    }
+
+    /* Sadece card elemanlarının arka planını siyah yapın */
+    .dark-mode .card {
+        background-color: #2c3e50;
+    }
+</style>
+
+<script>
+    function toggleDarkMode() {
+        var body = document.body;
+        body.classList.toggle("dark-mode");
+    }
+
+
+
+</script>
+@*<button onclick="toggleDarkMode()">Dark Mode</button>*@
 
 <div class="container">
     <div class="row d-flex justify-content-center">
@@ -25,13 +55,14 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-md-3 col-sm text-center">
+        <div class="col-md-3 col-sm text-center animate__animated animate__backInLeft animate__delay-1s" id="populer">
             <h2>Popüler Yazılar</h2>
             <hr />
 
             @foreach (var item in Model)
             {
-                if (item.TurId == "Popüler")
+               
+                if (item.TurId == "Popüler" || ViewBag.ortalama < item.TikSayisi)
                 {
 
                     <div class="card mb-2">
@@ -53,7 +84,7 @@
                 }
             }
         </div>
-        <div class="col-md col-sm text-center">
+        <div class="col-md col-sm text-center animate__animated animate__backInDown">
             <h2>Yeni Yazılar</h2>
             <hr />
             @foreach (var item in Model)
@@ -76,15 +107,13 @@
                         </div>
                     </div>
                 </div>
-                
+
 
             }
         </div>
-        <div class="col-md-3 col-sm text-center">
+        <div class="col-md-3 col-sm text-center animate__animated animate__backInRight animate__delay-1s">
             <h2>Seçmeceler</h2>
             <hr />
-
-
             @foreach (var item in Model)
             {
                 @if (item.TurId == "Editörün Seçtiği")
