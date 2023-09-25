@@ -9,14 +9,14 @@
 
 <div class="container" id="ust">
     <div class="row">
-        <div class="col-3"></div>
+        
         <div class="col">
             <h2 class="h2">Yazıyı Güncelle</h2>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-3"></div>
+        
         <div class="col">
             @using (Html.BeginForm("Guncelle", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
             {
@@ -54,7 +54,7 @@
                     }
 
                     <br><br />
-                    <button class="btn btn-outline-success">Güncelle</button>
+                    <button class="btn btn-outline-success mb-5">Güncelle</button>
                 </div>
             }
         </div>

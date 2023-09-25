@@ -4,11 +4,6 @@
     ViewData["Title"] = "Ana Sayfa";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<style>
-    #ust {
-        margin-top: 10%;
-    }
-</style>
 
 <div class="container mt-4" id="ust">
     <div class="row text-center">
@@ -18,15 +13,15 @@
     </div>
 
     <div class="row">
-        <div class="col-3"></div>
+        
         <div class="col">
             <a href="/Home/YeniYazi" class="btn btn-outline-warning mb-2">Yeni Yazı Yaz</a>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-3"></div>
-        <div class="col-md-9 col-sm-9">
+        
+        <div class="col-md-12 col-sm-9">
             <table class=" table table-hover">
                 <tr>
                     <th>Yazı No</th>
@@ -46,8 +41,10 @@
                             <td><p class="card-text" style="overflow: auto;max-height:100px">@item.Icerik</p></td>
                             <td><p>@item.TurId</p></td>
                             <td>
-                                <a class="btn btn-success" href="/Home/Guncelle/@item.Id">Güncelle</a>
-                                <a class="btn btn-danger" href="/Home/BlogYaziSil/@item.Id">Sil</a>
+                                <a href="/Home/Guncelle/@item.Id" id="Guncelle"><button class="mb-2">Güncelle</button></a>
+
+                                <a href="/Home/BlogYaziSil/@item.Id"><button id="Sil">Sil</button></a>
+                                
                             </td>
 
                         </tr>

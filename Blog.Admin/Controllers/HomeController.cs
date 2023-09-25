@@ -22,10 +22,6 @@ namespace Blog.Admin.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
         public IActionResult Yazilar()
         {
             return View(db.tbl_BlogYazilari.OrderByDescending(x=>x.Id));
